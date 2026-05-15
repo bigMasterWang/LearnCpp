@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Chapter_13/Chapter_13_13/chapter_13.h"
+#include "Chapter_13/Chapter_13_13/chapter_13_13.h"
 
 
 int max(int x, int y)
@@ -50,7 +50,7 @@ constexpr T template_max_2(template_pair<T>& p)
 	return (p.a < p.b) ? p.b : p.a;
 };
 
-namespace ch_13_01 {
+namespace ch_13_13_01 {
 void run()
 {
 	std::cout << max(1, 2) << std::endl;

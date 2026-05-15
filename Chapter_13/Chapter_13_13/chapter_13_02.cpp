@@ -1,4 +1,4 @@
-#include "Chapter_13/Chapter_13_13/chapter_13.h"
+#include "Chapter_13/Chapter_13_13/chapter_13_13.h"
 #include <iostream>
 #include <utility>
 
@@ -56,7 +56,7 @@ void test_make()
 	std::cout << "hello test_make" << std::endl;
 }
 
-namespace ch_13_02 {
+namespace ch_13_13_02 {
 	void run()
 	{
 		Pair<int, double> p1{ 1,2.3 };
@@ -66,7 +66,6 @@ namespace ch_13_02 {
 		Point p3{ 6,7 };
 		print2(p2);
 		print2(p3);
-
 		std::pair<int, double> p4{ 8,9.0 };	
 		std::pair<float, double> p5{ 10.1f, 11.2 };
 		std::pair<std::string, std::string> p6{ "hello", "world" };	
